@@ -28,7 +28,7 @@ use vars qw(
             $permDB
            );
 
-$VERSION = '$Rev: 9756 $';
+$VERSION = '$Rev$';
 $RELEASE = 'TWiki-4';
 
 my $pluginName = 'WebDAVPlugin';
