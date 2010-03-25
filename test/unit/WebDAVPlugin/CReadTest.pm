@@ -2,7 +2,8 @@ use strict;
 
 package CReadTest;
 
-use base qw(FoswikiTestCase);
+use FoswikiTestCase;
+our @ISA = qw( FoswikiTestCase );
 
 use TWiki::Plugins::WebDAVPlugin;
 use TWiki::Plugins::WebDAVPlugin::Permissions;

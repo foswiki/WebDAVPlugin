@@ -3,7 +3,8 @@ use TDB_File;
 
 package PluginTests;
 
-use base qw(FoswikiTestCase);
+use FoswikiTestCase;
+our @ISA = qw( FoswikiTestCase );
 
 use TWiki::Plugins::WebDAVPlugin;
 

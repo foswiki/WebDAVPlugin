@@ -26,7 +26,8 @@ $davUser[1] = {
 
 use strict;
 
-use base qw(Unit::TestCase);
+use Unit::TestCase;
+our @ISA = qw( Unit::TestCase );
 
 sub new {
   my $self = shift()->SUPER::new(@_);
